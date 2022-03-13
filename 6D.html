@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Problem Statement-6-d
+	</title>
+</head>
+<body>
+	<form>
+		<table width="80%" frame="border" cellspacing="20" bordercolor="blue">
+			<tr>
+				<td colspan="2"><b>Internet Usage Survey</b></td>
+			</tr>
+
+			<tr>
+				<td colspan="2">This surver is being conducted to help idenify the Internet usage patterns of our customers.<br>Please take a few moments to complete and submit this short form. Thankyou for your cooperation</td>
+			</tr>
+
+			<tr>
+				<td>What type of Internet connection do you have?<br>(Select one)</td>
+				<td>
+					<select multiple>
+						<option>Dial-up</option>
+						<option>DSL</option>
+						<option>High speed cable</option>
+						<option>Other</option>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td>What type of computer do you use most at home?</td>
+				<td>
+					<input type="radio" name="computer-type">Desktop &nbsp;&nbsp;&nbsp;
+					<input type="radio" name="computer-type">Laptop
+				</td>
+			</tr>
+
+			<tr>
+				<td>How would you describe your main reason for using the Internet?</td>
+				<td>
+					<input type="radio" name="reason">To do work-related activities<br>
+					<input type="radio" name="reason">To do school-related activities<br>
+					<input type="radio" name="reason">For entertainment purposes<br>
+					<input type="radio" name="reason">Other activities
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<fieldset>
+						<legend>Type of sites visited</legend>
+						<p>What type of websites do you access most often?<br>Check all that appky.</p>
+						<p>
+							<input type="checkbox">Self improvement<br>
+							<input type="checkbox">Entertainment<br>
+							<input type="checkbox">Sports and news<br>
+							<input type="checkbox">Reference<br>
+							<input type="checkbox">Email
+						</p>
+					</fieldset>
+				</td>
+
+				<td>
+					<fieldset>
+						<legend>Time spent using Internet</legend>
+						<p>During an average week, how long do you spend online?</p>
+						<p>
+							<input type="checkbox">0-3 hours<br>
+							<input type="checkbox">4-6 hours<br>
+							<input type="checkbox">7-10 hours<br>
+							<input type="checkbox">11-14 hours<br>
+							<input type="checkbox">15+ hours
+						</p>
+					</fieldset>
+				</td>
+			</tr>
+
+			<tr>
+				<td colspan="2">
+					Please comment on your opinions concerning Internet privacy and security<br>
+					<textarea rows="6" cols="100"></textarea>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<span>First name: &nbsp;&nbsp;</span>
+					<input type="text" name="first-name" size="40">
+				</td>
+				<td>
+					<span>Last name: &nbsp;&nbsp;</span>
+					<input type="text" name="last-name" size="40">
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<span>Age: &nbsp;&nbsp;</span>
+					<input type="number" name="age" size="10">
+				</td>
+				<td>
+					<span>Zip code: &nbsp;&nbsp;</span>
+					<input type="text" name="zip-code" size="10">
+				</td>
+			</tr>
+
+			<tr>
+				<td align="right">
+					<input type="submit" value="Click to submit">
+				</td>
+				<td align="left">
+					<input type="reset" value="Clear form">
+				</td>
+			</tr>
+		</table>
+		</form>
+</body>
+</html>
